@@ -1200,7 +1200,7 @@ multiple open paths instead.
 
 Servers observing a 4-tuple change will
 perform path validation (see {{Section 9 of QUIC-TRANSPORT}}).
-If path validation process succeeds, the endpoints reset
+If the path validation process succeeds, the endpoints reset
 the path's congestion controller and round-trip time
 estimator according to {{Section 9.4 of QUIC-TRANSPORT}}.
 

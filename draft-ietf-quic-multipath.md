@@ -609,7 +609,7 @@ for all active paths using the PATH_NEW_CONNECTION_ID after retirement
 of an old connection ID, an endpoint MAY send
 a PATH_CIDS_BLOCKED (see {{paths-and-cids-blocked-frame}})
 if it wants to change the connection ID but no
-unused connection ID for a that path is available. Further, an
+unused connection ID for a path is available. Further, an
 endpoint MAY also send a PATH_CIDS_BLOCKED frame if it wants to
 open a new path and has no connection IDs available for an unused
 path ID even though the Maximum Path Identifier value would allow
